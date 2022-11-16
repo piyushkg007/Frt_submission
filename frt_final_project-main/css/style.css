@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list-group-item{
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+div.list-group a{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
+}
+
+div .contact{
+    background-color: #ffba61;
+    border-radius: 10px;
+}
